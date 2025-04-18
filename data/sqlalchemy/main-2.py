@@ -3,6 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from model import Base, Publisher, Book, Shop, Stock, Sale
 from datetime import datetime
 
+
 DATABASE = 'postgresql://postgres:postgres@localhost:5432/book_store'
 engine = create_engine(DATABASE)
 Base.metadata.create_all(engine)
