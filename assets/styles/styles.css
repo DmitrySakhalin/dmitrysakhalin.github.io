@@ -12,6 +12,34 @@
     all: unset;
     display: revert;
 }
+.email-label {
+  font-size: 18px;  /* размер для 'e-mail:' */
+}
+
+.email-address {
+  font-size: 22px;  /* размер для почты */
+}
+
+.student-info {
+  font-size: 16px; /* или любое другое подходящее значение, например 1.1em, 120%, 1rem */
+}
+
+.student-info {
+    font-size: 16px;         /* ваш размер шрифта */
+    margin-top: 2px;         /* минимальный отступ сверху (можете сделать 0, если нужен совсем маленький разрыв) */
+    line-height: 1.2;        /* сделать строки компактнее */
+}
+
+.intern-title {
+  font-size: 22px;   /* например, крупнее чем .student-info */
+  font-weight: 700;  /* по желанию: сделать жирным */
+  margin-top: 4px;   /* по желанию: небольшой отступ сверху */
+}
+
+/* Если у вас <img class="telegram-logo" ...> */
+.content__social-item.telegram {
+    margin-top: -50px;
+}
 
 /* Preferred box-sizing value */
 *,
@@ -97,20 +125,11 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: #c8cbcd;
-    }
-
-    a {
-        color: #fff;
-    }
-
-    .content__social-item img,
-    .footer__social-item img{
-        filter: invert(1);
-    }
+body {
+    background-image: url('/assets/img/wall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main {
@@ -267,4 +286,26 @@ a:hover {
     width: 22px;
     height: 22px;
     margin-right: 4px;
+}
+
+.content__subheader {
+  font-weight: normal;
+}
+
+.content__about-header {
+  margin-top: -20px;
+}
+
+ol li strong {
+  font-weight: bold !important;
+}
+
+.main {
+  padding-bottom: 100px;
+}
+
+.png-image {
+  width: 600px;
+  height: auto;
+  display: block;
 }
