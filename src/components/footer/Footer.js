@@ -12,8 +12,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("© 2025 Dmitry Pack — All rights reserved.")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}></p>
       </div>
     </Fade>
   );

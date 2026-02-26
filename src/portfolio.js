@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/DmitrySakhalin",
   telegram: "https://t.me/Dmitry_Park",
   gmail: "dmitry-pack@mail.ru",
-//  gitlab: "https://gitlab.com/saadpasta",
-//  facebook: "https://www.facebook.com/saad.pasta7",
-//  medium: "https://medium.com/@saadpasta",
-//  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //  gitlab: "https://gitlab.com/saadpasta",
+  //  facebook: "https://www.facebook.com/saad.pasta7",
+  //  medium: "https://medium.com/@saadpasta",
+  //  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Python Backend",
-  subTitle: "Выпускник расширенного курса Python Backend. Практические навыки Django, FastAPI, Docker & CI/CD",
+  subTitle:
+    "Выпускник расширенного курса Python Backend. Практические навыки Django, FastAPI, Docker & CI/CD",
   skills: [
     emoji(
       "⚡ Проектирование и разработка REST API на Django и FastAPI с поддержкой асинхронности"
@@ -64,46 +65,46 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "Django",
-    fontAwesomeClassname: "fas fa-feather-alt"
-  },
-  {
-    skillName: "FastAPI",
-    fontAwesomeClassname: "fas fa-bolt"
-  },
-  {
-    skillName: "Flask",
-    fontAwesomeClassname: "fas fa-flask"
-  },
-  {
-    skillName: "Asyncio",
-    fontAwesomeClassname: "fas fa-sync-alt"
-  },
-  {
-    skillName: "SQL-database",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "GitHub",
-    fontAwesomeClassname: "fab fa-github"
-  },
-  {
-    skillName: "CI/CD",
-    fontAwesomeClassname: "fas fa-cogs"
-  },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-feather-alt"
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "Asyncio",
+      fontAwesomeClassname: "fas fa-sync-alt"
+    },
+    {
+      skillName: "SQL-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-cogs"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,15 +115,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Первый медицинский университет им. Павлова, г. Санкт-Петербург",
+      schoolName:
+        "Первый медицинский университет им. Павлова, г. Санкт-Петербург",
       logo: require("./assets/images/first_med.png"),
       subHeader: "Лечебное дело",
       duration: "Сентябрь 2004 - Июль 2009",
       desc: "Степень",
-      descBullets: [
-        "Специалист",
-      ]
-    },
+      descBullets: ["Специалист"]
+    }
   ]
 };
 
@@ -148,31 +148,31 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-//    {
-//      role: "Software Engineer",
-//      company: "Facebook",
-//      companylogo: require("./assets/images/facebookLogo.png"),
-//      date: "June 2018 – Present",
-//      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//      descBullets: [
-//        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//      ]
-//    },
-//    {
-//      role: "Front-End Developer",
-//      company: "Quora",
-//      companylogo: require("./assets/images/quoraLogo.png"),
-//      date: "May 2017 – May 2018",
-//      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//    },
-//    {
-//      role: "Software Engineer Intern",
-//      company: "Airbnb",
-//      companylogo: require("./assets/images/airbnbLogo.png"),
-//      date: "Jan 2015 – Sep 2015",
-//      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//    }
+    //    {
+    //      role: "Software Engineer",
+    //      company: "Facebook",
+    //      companylogo: require("./assets/images/facebookLogo.png"),
+    //      date: "June 2018 – Present",
+    //      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //      descBullets: [
+    //        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //      ]
+    //    },
+    //    {
+    //      role: "Front-End Developer",
+    //      company: "Quora",
+    //      companylogo: require("./assets/images/quoraLogo.png"),
+    //      date: "May 2017 – May 2018",
+    //      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    //    },
+    //    {
+    //      role: "Software Engineer Intern",
+    //      company: "Airbnb",
+    //      companylogo: require("./assets/images/airbnbLogo.png"),
+    //      date: "Jan 2015 – Sep 2015",
+    //      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    //    }
   ]
 };
 
@@ -190,10 +190,11 @@ const bigProjects = {
   title: "Проекты и кейсы",
   subtitle: "Проекты, созданные во время обучения Python Backend",
   projects: [
-       {
+    {
       image: require("./assets/images/backend.png"),
       projectName: "Backend для автоматизации закупок",
-      projectDesc: "Сервис заказов на Django REST с Celery, импортом и кастомными полями",
+      projectDesc:
+        "Сервис заказов на Django REST с Celery, импортом и кастомными полями",
       footerLink: [
         {
           name: "Visit GitHub",
@@ -201,11 +202,12 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-      },
-      {
+    },
+    {
       image: require("./assets/images/fastapi-screenshot.png"),
       projectName: "REST API на FastAPI",
-      projectDesc: "Асинхронное API с валидацией Pydantic, JWT аутентификацией и документацией Swagger",
+      projectDesc:
+        "Асинхронное API с валидацией Pydantic, JWT аутентификацией и документацией Swagger",
       footerLink: [
         {
           name: "Visit GitHub",
@@ -218,7 +220,8 @@ const bigProjects = {
     {
       image: require("./assets/images/flask.png"),
       projectName: "Flask REST API объявлений",
-      projectDesc: "REST API с HTTP Basic Auth, pytest тестами и CI/CD (Docker + GitHub Actions)",
+      projectDesc:
+        "REST API с HTTP Basic Auth, pytest тестами и CI/CD (Docker + GitHub Actions)",
       footerLink: [
         {
           name: "Visit GitHub",
@@ -235,14 +238,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Образование и Сертификаты 🏆 "),
-  subtitle:
-    "Python Backend разработка",
+  subtitle: "Python Backend разработка",
 
   achievementsCards: [
     {
       title: "Нетология",
-      subtitle:
-        "Сертификат об окончании обучения",
+      subtitle: "Сертификат об окончании обучения",
       image: require("./assets/images/finish_ed.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -253,20 +254,19 @@ const achievementSection = {
         {
           name: "Программа Обучения",
           url: "https://netology.ru/programs/python"
-        },
-//        {
-//          name: "Google Code-in Blog",
-//          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-//        }
+        }
+        //        {
+        //          name: "Google Code-in Blog",
+        //          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        //        }
       ]
     },
     {
       title: "Нетология",
-      subtitle:
-        "Python: Основы языка и Профессиональная работа",
+      subtitle: "Python: Основы языка и Профессиональная работа",
       image: require("./assets/images/prof_python.png"),
       imageAlt: "Google Assistant Action Logo",
-            footerLink: [
+      footerLink: [
         {
           name: "Основы языка Python",
           url: "https://disk.yandex.ru/i/6Ju_cri4RZLPsQ"
@@ -274,11 +274,11 @@ const achievementSection = {
         {
           name: "Профессиональная  работа",
           url: "https://disk.yandex.ru/i/Fsy9xf6qMRr9Nw"
-        },
-//        {
-//          name: "Google Code-in Blog",
-//          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-//        }
+        }
+        //        {
+        //          name: "Google Code-in Blog",
+        //          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        //        }
       ]
     },
 
@@ -288,52 +288,52 @@ const achievementSection = {
       image: require("./assets/images/django.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Сертификат", url: "https://disk.yandex.ru/i/6srl0OiS4MgQ_w"},
-//        {
-//          name: "Final Project",
-//          url: "https://pakistan-olx-1.firebaseapp.com/"
-//        }
+        {name: "Сертификат", url: "https://disk.yandex.ru/i/6srl0OiS4MgQ_w"}
+        //        {
+        //          name: "Final Project",
+        //          url: "https://pakistan-olx-1.firebaseapp.com/"
+        //        }
       ]
     },
-       {
+    {
       title: "Нетология",
       subtitle: "Работа с базами данных для Python-разработчиков",
       image: require("./assets/images/data_base.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Сертификат", url: "https://disk.yandex.ru/i/dPe7qmnpKBpMYw"},
-//        {
-//          name: "Final Project",
-//          url: "https://pakistan-olx-1.firebaseapp.com/"
-//        }
+        {name: "Сертификат", url: "https://disk.yandex.ru/i/dPe7qmnpKBpMYw"}
+        //        {
+        //          name: "Final Project",
+        //          url: "https://pakistan-olx-1.firebaseapp.com/"
+        //        }
       ]
     },
-           {
+    {
       title: "Нетология",
       subtitle: "Объектно-ориентированное программирование и API",
       image: require("./assets/images/oop_api.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Сертификат", url: "https://disk.yandex.ru/i/qQkdXeY2lJYPIA"},
-//        {
-//          name: "Final Project",
-//          url: "https://pakistan-olx-1.firebaseapp.com/"
-//        }
+        {name: "Сертификат", url: "https://disk.yandex.ru/i/qQkdXeY2lJYPIA"}
+        //        {
+        //          name: "Final Project",
+        //          url: "https://pakistan-olx-1.firebaseapp.com/"
+        //        }
       ]
     },
- {
+    {
       title: "Нетология",
       subtitle: "Git: Система контроля версий",
       image: require("./assets/images/git.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Сертификат", url: "https://disk.yandex.ru/i/8PwOkYXP-YVgjw"},
-//        {
-//          name: "Final Project",
-//          url: "https://pakistan-olx-1.firebaseapp.com/"
-//        }
+        {name: "Сертификат", url: "https://disk.yandex.ru/i/8PwOkYXP-YVgjw"}
+        //        {
+        //          name: "Final Project",
+        //          url: "https://pakistan-olx-1.firebaseapp.com/"
+        //        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -378,7 +378,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
