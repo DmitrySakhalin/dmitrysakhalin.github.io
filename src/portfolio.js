@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/DmitrySakhalin",
-  telegram: "https://t.me/Connection_Sakhalin",
+  telegram: "https://t.me/Dmitry_Park",
   gmail: "dmitry-pack@mail.ru",
 //  gitlab: "https://gitlab.com/saadpasta",
 //  facebook: "https://www.facebook.com/saad.pasta7",
@@ -407,7 +407,7 @@ const contactInfo = {
   title: emoji("Контакты ☎️"),
   subtitle:
     "Готов обсудить проект или просто пообщаться. Моя почта всегда открыта для вас.",
-  number: "+7 (906) 254-67-89",
+  number: "+7 (921) 789-99-96",
   email_address: "dmitry-pack@mail.ru"
 };
 
