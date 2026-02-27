@@ -119,7 +119,7 @@ const educationInfo = {
         "Первый медицинский университет им. Павлова, г. Санкт-Петербург",
       logo: require("./assets/images/first_med.png"),
       subHeader: "Лечебное дело",
-      duration: "Сентябрь 2004 - Июль 2009",
+      duration: "Сентябрь 2003 - Июль 2009",
       desc: "Степень",
       descBullets: ["Специалист"]
     }
