@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/porfolio_2025/static/css/main.7ea88e1f.css",
-    "main.js": "/porfolio_2025/static/js/main.09a8bbb7.js",
+    "main.js": "/porfolio_2025/static/js/main.04850f6b.js",
     "static/css/64.bba8fa55.chunk.css": "/porfolio_2025/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/porfolio_2025/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/porfolio_2025/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/porfolio_2025/static/js/769.bda0d7b7.chunk.js",
-    "static/media/Rezume.docx": "/porfolio_2025/static/media/Rezume.09e3384544c7c3ff2c00.docx",
+    "static/media/Rezume.docx": "/porfolio_2025/static/media/Rezume.fa9d4123ff3dd6566873.docx",
     "static/media/Montserrat-Regular.ttf": "/porfolio_2025/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/porfolio_2025/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/data_base.png": "/porfolio_2025/static/media/data_base.82090682d151487ddbae.png",
@@ -26,7 +26,7 @@
     "index.html": "/porfolio_2025/index.html",
     "static/media/talksCardBack.svg": "/porfolio_2025/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.7ea88e1f.css.map": "/porfolio_2025/static/css/main.7ea88e1f.css.map",
-    "main.09a8bbb7.js.map": "/porfolio_2025/static/js/main.09a8bbb7.js.map",
+    "main.04850f6b.js.map": "/porfolio_2025/static/js/main.04850f6b.js.map",
     "64.bba8fa55.chunk.css.map": "/porfolio_2025/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/porfolio_2025/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/porfolio_2025/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.7ea88e1f.css",
-    "static/js/main.09a8bbb7.js"
+    "static/js/main.04850f6b.js"
   ]
 }
